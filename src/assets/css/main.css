@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'iconfont';
+  /* project id 682850 */
+  src: url('//at.alicdn.com/t/font_682850_58yfbhz7jvf.eot');
+  src: url('//at.alicdn.com/t/font_682850_58yfbhz7jvf.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_682850_58yfbhz7jvf.woff') format('woff'),
+    url('//at.alicdn.com/t/font_682850_58yfbhz7jvf.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_682850_58yfbhz7jvf.svg#iconfont') format('svg');
+}
+
+@font-face {
+  font-family: 'meituan';
+  src: url(//s0.meituan.net/bs/fe-web-meituan/c19c6e9/font/home-category-iconfont.eot?t=1503027869484);
+    src: url(//s0.meituan.net/bs/fe-web-meituan/c19c6e9/font/home-category-iconfont.eot?t=1503027869484#iefix) format('embedded-opentype'),
+    url(//s0.meituan.net/bs/fe-web-meituan/c19c6e9/font/home-category-iconfont.woff?t=1503027869484) format('woff'),
+    url(//s0.meituan.net/bs/fe-web-meituan/c19c6e9/font/home-category-iconfont.ttf?t=1503027869484) format('truetype'),
+    url(//s0.meituan.net/bs/fe-web-meituan/c19c6e9/font/home-category-iconfont.svg?t=1503027869484#home-category-iconfont) format('svg')
+}
+
+@font-face {
+  font-family: "MFShangHei-Regular";
+  src: url("https://s0.meituan.net/bs/fe-web-meituan/a3320a6/font/MFShangHei-Regular.eot"); /* IE9 */
+  src: url("https://s0.meituan.net/bs/fe-web-meituan/a3320a6/font/MFShangHei-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+
+  url("https://s0.meituan.net/bs/fe-web-meituan/a3320a6/font/MFShangHei-Regular.woff") format("woff"), /* chrome銆乫irefox */
+  url("https://s0.meituan.net/bs/fe-web-meituan/a3320a6/font/MFShangHei-Regular.ttf") format("truetype"), /* chrome銆乫irefox銆乷pera銆丼afari, Android, iOS 4.2+ */
+
+  url("https://s0.meituan.net/bs/fe-web-meituan/a3320a6/font/MFShangHei-Regular.svg#MFShangHei-Regular") format("svg"); /* iOS 4.1- */
+  font-style: normal;
+  font-weight: normal;
+}
+
+.layout-blank{
+  background-color: #fff;
+  color: #2e2f30;
+  letter-spacing: 0.5px;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  height: 100vh;
+  margin: 0;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+body *{
+  margin: 0;
+  padding: 0;
+}
+
+footer{
+  text-align: center;
+}
+
+a:hover, a:focus{
+  color: #41B883;
+}
+a{
+  color: #999;
+}
+
+.logo {
+  width: 243px;
+  height: 218px;
+}
+
+.page-enter-active, .page-leave-active{
+  transition: opacity .5s
+}
+.page-enter, .page-leave-active{
+  opacity: 0
+}
